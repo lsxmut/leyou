@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public enum ExceptionEnum {
 
-    PRICE_COULDNOT_BE_BULL(400,"价格不能为空！")
+    PRICE_COULDNOT_BE_BULL(400,"价格不能为空！"),
+    CATEGORY_NOT_FOND(404,"商品分类不存在！")
     ;
     private int code;
     private String msg;
